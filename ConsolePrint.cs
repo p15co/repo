@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConsolePrint : MonoBehaviour
+public class : MonoBehaviour
 {
-    public GameObject gameObject;
-
+    public GameObject gameObject
     private int i = 3;
 
 
@@ -18,8 +17,8 @@ public class ConsolePrint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        i++;
-        Debug.Log(gameObject.name+ ":" +i);
+    int i+1;
+        Debug.Log(gameObject.name+":"+i);
         
     }
 }
